@@ -1,0 +1,246 @@
+/* CSS Boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url("bg-final1.jpeg");
+    background-size: cover;
+}  
+
+/* Styling Topmost Parent - Main */
+#main{
+    height: 100%;
+    width: 100%;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling Logo */
+#main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#main>h1 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main>h1 span img{
+    height: 40px;
+    margin: 0px 20px;
+    transition: 0.3s ease;
+}
+
+/* Styling Enc-Dec-btn-container */
+#main > #en-dec-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222;
+    padding: 8px;
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 70px;
+
+}
+
+/* Styling h3 inside en-dec-btn-container */
+#main > #en-dec-btn-container h3{
+    
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px, 10px;
+    transform: 0.2s ease;
+    
+}
+
+/* Styling span inside h3 inside en-dec-btn-container */
+#main > #en-dec-btn-container h3 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* Styling img inside span inside h3 inside en-dec-btn-container */
+#main > #en-dec-btn-container h3 span img{
+    height: 25px;
+    margin: 0px 4px;
+    border-radius: 10px;
+}
+
+
+/* Styling encrypt-btn */
+#encrypt-btn{
+    width: 150px;
+    background-color: #333;
+    padding: 5px;
+    margin: 0px 8px;
+}
+
+/* Styling decrypt-btn */
+#decrypt-btn{
+    width: 150px;
+    background-color: #333;
+    margin: 0px 8px;
+    padding: 5px;
+}
+
+/* Styling Encryption Panel */
+#encryption{
+    width:45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+#encryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+#encryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+}
+
+#encryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+}
+
+
+#encryption button{
+    display: flex;
+    align-items: center;
+    color: #eee;
+    background-color: #1c1c1c;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#encryption button span img{
+    height: 28px;
+    margin: 5px 5px;
+    border-radius: 10px;
+
+}
+/* Styling Decryption Panel */
+#decryption{
+    width:45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 10px;
+}
+
+#decryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+}
+
+#decryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 50px;
+}
+
+
+#decryption button{
+    display: flex;
+    align-items: center;
+    color: #eee;
+    background-color: #1c1c1c;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#decryption button span img{
+    height: 28px;
+    margin: 5px 5px;
+    border-radius: 10px;
+
+}
+/* Styling Result Div */
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 40px;
+}
+
+
+
+
+
+
